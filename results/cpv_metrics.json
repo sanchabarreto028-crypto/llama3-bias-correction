@@ -1,0 +1,13 @@
+{
+  "total_variants": 12310,
+  "unique_cases": 1202,
+  "overall_accuracy": 0.5224,
+  "proxy_cf_gap": 0.0077,
+  "accuracy_by_ethnicity": {
+    "Arab": 0.5232,
+    "Asian": 0.526,
+    "Black": 0.5183,
+    "Hispanic": 0.5244,
+    "White": 0.5203
+  }
+}

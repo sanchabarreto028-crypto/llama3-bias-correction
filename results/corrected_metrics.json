@@ -1,0 +1,16 @@
+{
+  "overall_accuracy": 0.4156785243741766,
+  "proxy_cf_gap": 0.06587615283267458,
+  "demographic_parity_diff": 0.013175230566534912,
+  "unclear_rate": 0.1732542819499341,
+  "accuracy_by_demographic": {
+    "White male": 0.40843214756258234,
+    "White female": 0.4137022397891963,
+    "Black male": 0.40974967061923584,
+    "Black female": 0.41106719367588934,
+    "Hispanic male": 0.42160737812911725,
+    "Hispanic female": 0.42160737812911725,
+    "Asian male": 0.4189723320158103,
+    "Asian female": 0.42028985507246375
+  }
+}
