@@ -10,5 +10,7 @@
     "Hispanic": 0.5244,
     "White": 0.5203
   },
-  "proxy_cf_gap_note": "Corrected \u2014 proportion of cases with different answers across variants"
+  "proxy_cf_gap_note": "Corrected \u2014 proportion of cases with different answers across variants",
+  "minimax_fairness": 0.1057,
+  "equalised_opportunity_difference": 0.1057
 }
