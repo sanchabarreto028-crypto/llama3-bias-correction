@@ -66,8 +66,10 @@ Post-Correction Re-Evaluation (same test sets)
 | Metric | Before DPO | After DPO | Δ |
 |---|---|---|---|
 | Overall Accuracy | 0.5224 | 0.5245 | +0.21% |
-| Proxy CF Gap | 0.0915 | 0.1040 | +0.096 |
+| Proxy CF Gap | 0.0915 | 0.1040 | +0.125 |
 | Demographic Parity Difference | 0.0077 | 0.0065 | −15.6% |
+| Minimax Fairness | 0.1057 | 0.1049 | −0.008 |
+| Equalised Opportunity Difference | 0.1057 | 0.1049 | −0.008 |
 
 > **Note on CPV proxy CF gap:** The baseline CPV proxy CF gap was 0.0915, indicating the model produced different answers across demographic variants in approximately 9% of cases before correction. Post-DPO this increased to 0.1040, suggesting DPO did not improve counterfactual consistency on CPV and introduced modest additional response variability. Ethnicity differences remained statistically non-significant (χ², p>0.95), confirming no ethnic group was systematically disadvantaged. Gender differences in CPV were significant both before and after DPO (p=0.005), indicating this axis of bias was not addressed by the current alignment strategy.
 
