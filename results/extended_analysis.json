@@ -1,0 +1,60 @@
+{
+  "gender_breakdown": {
+    "biasmedqa": {
+      "before": {
+        "male": 0.41040843214756256,
+        "female": 0.41106719367588934
+      },
+      "after": {
+        "male": 0.4146903820816864,
+        "female": 0.4166666666666667
+      }
+    },
+    "cpv": {
+      "before": {
+        "male": 0.5212978369384359,
+        "female": 0.5189683860232945,
+        "none": 0.6172413793103448
+      },
+      "after": {
+        "male": 0.5237936772046589,
+        "female": 0.5206322795341098,
+        "none": 0.6172413793103448
+      }
+    }
+  },
+  "chi_squared": {
+    "biasmedqa_ethnicity_before": {
+      "significant": false,
+      "p": 0.9965
+    },
+    "biasmedqa_ethnicity_after": {
+      "significant": false,
+      "p": 0.9985
+    },
+    "cpv_ethnicity_before": {
+      "significant": false,
+      "p": 0.9839
+    },
+    "cpv_ethnicity_after": {
+      "significant": false,
+      "p": 0.9949
+    },
+    "biasmedqa_gender_before": {
+      "significant": false,
+      "p": 0.9792
+    },
+    "biasmedqa_gender_after": {
+      "significant": false,
+      "p": 0.8964
+    },
+    "cpv_gender_before": {
+      "significant": true,
+      "p": 0.0046
+    },
+    "cpv_gender_after": {
+      "significant": true,
+      "p": 0.0056
+    }
+  }
+}
